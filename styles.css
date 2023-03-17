@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    place-content: center;
+    background-color: rgb(218, 218, 218);
+}
+
+h1 {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+    font-weight: 900;
+    color: hsl(184, 100%, 8%);
+    width: min(90%, 53rem);
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+
+main {
+    padding: 2rem;
+    border: #fff .3rem solid;
+    width: min(90%, 53rem);
+    margin-inline: auto;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin: 1rem;
+    color: hsl(184, 100%, 8%);
+    border: #fff solid 2px;
+    background-color: #fff;
+}
+
+li {
+    margin: 1.5rem;
+    font-size: 1.2rem;
+}
+
+input#submit {
+    padding: 1rem 3.5rem;
+    border-radius: 1rem;
+    display: block;
+    margin-inline: auto;
+    background-color: hsl(184, 100%, 8%);
+    color: #fff;
+    font-weight: 700;
+}
+
+input#submit:hover {
+    color: hsl(184, 100%, 8%);
+    background-color: rgb(218, 218, 218);
+}
+
+a {
+    margin: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-style: italic;
+    color: hsl(184, 100%, 8%);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0e231c;
+}
+
+.result {
+    text-align: center;
+    font-size: 2rem;
+}
+
+span {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-inline: 1rem;
+    color: crimson;
+    font-family: Helvetica, sans-serif;
+}
+
+.result {
+    display: none;
+    color: hsl(184, 100%, 8%);
+}
+
+p.answer1, p.answer2, p.answer3, p.answer4, p.answer5, p.answer6, p.answer7, p.answer8, p.answer9, p.answer10 {
+    color: crimson;
+    margin-top: 1.3rem;
+    display: none;
+}
